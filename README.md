@@ -4,8 +4,6 @@ Este proyecto es una aplicación web en Django que permite mostrar una lista din
 
 ## Requisitos
 
-Antes de comenzar, asegúrate de tener lo siguiente instalado:
-
 - Python 3.x
 - Django (versión más reciente)
 - Bootstrap (incluido a través de CDN en el template HTML)
@@ -31,16 +29,16 @@ macOS/Linux:
 source venv/bin/activate
 ```
 
-3. Instala Django en el entorno virtual:
+3. Instalar Django en el entorno virtual:
 ```bash
 pip install django
 ```
-4. Crea un proyecto Django llamado institucion:
+4. Crear un proyecto Django llamado organizacion:
 ```bash
-django-admin startproject institucion
+django-admin startproject organizacion
 ```
 
-5. Crea una aplicación dentro del proyecto llamada empleadosApp:
+5. Crear una aplicación dentro del proyecto llamada empleadosApp:
 ```bash
 python manage.py startapp empleadosApp
 ```
